@@ -5,23 +5,23 @@
 
 ---
 
-## Product proposal
+## 💡 Product proposal
 
 > [!NOTE]
 > This section gets you buy-in before diving into implementation details. Share this with stakeholders, get feedback, iterate, and only proceed to Part 2 once you've validated the idea is worth building.
 
-### What are you trying to solve?
+### 🎯 What are you trying to solve?
 
 State the problem clearly, without jumping to solutions. Use concrete examples, quantify the impact, and include data or user quotes where possible.
 
 > [!TIP]
 > "Users wait an average of 8 seconds for their transaction history to load, and we're seeing 23% drop-off at this screen." is better than "Transaction history is slow."
 
-### What are you NOT trying to solve?
+### 🚫 What are you NOT trying to solve?
 
 Explicitly define what's out of scope to prevent scope creep and set clear boundaries. This gives you permission to say no to feature requests that don't align with the core problem.
 
-### Why should this problem be solved?
+### 🤷‍♂️ Why should this problem be solved?
 
 Make the case for why this deserves engineering time and resources.
 
@@ -34,7 +34,7 @@ Make the case for why this deserves engineering time and resources.
 
 Show your work with numbers and data.
 
-### Why now?
+### ⏰ Why now?
 
 Explain why this is the right time to solve this problem.
 
@@ -45,7 +45,7 @@ Explain why this is the right time to solve this problem.
 - Dependencies (what needs to ship first)
 - Opportunity windows (when will this be easier/harder)
 
-### Requirements
+### ✅ Requirements
 
 List non-negotiable must-haves as testable statements. These should be specific and verifiable.
 
@@ -56,7 +56,7 @@ List non-negotiable must-haves as testable statements. These should be specific 
 > - "Solution must work for users on iOS 14 and above"
 > - "Data must be encrypted at rest and in transit"
 
-### High-level solution overview
+### 🔍 High-level solution overview
 
 Explain your solution in terms a non-technical stakeholder can understand. No tech jargon yet.
 
@@ -69,7 +69,7 @@ Explain your solution in terms a non-technical stakeholder can understand. No te
 
 ---
 
-### Checklist
+### ☑️ Checklist
 
 > [!IMPORTANT]
 > Before proceeding to **Technical specification**, verify all items below. If you can't check all boxes, don't proceed yet. Get feedback, iterate, and validate the idea first.
@@ -83,12 +83,12 @@ Explain your solution in terms a non-technical stakeholder can understand. No te
 
 ---
 
-## Technical specification
+## 🔧 Technical specification
 
 > [!NOTE]
 > This section is more dynamic and collaborative. Write the first draft, then invite stakeholders to review and improve it. The plan should evolve based on feedback and what you learn.
 
-### Best practices and company standards (optional)
+### 📏 Best practices and company standards (optional)
 
 If your implementation diverges from established practices, explain how and why.
 
@@ -100,7 +100,7 @@ If your implementation diverges from established practices, explain how and why.
 > - Clear reasoning for why current approach doesn't work
 > - Migration path from current to proposed state
 
-### Prior art and alternatives considered
+### 🔄 Prior art and alternatives considered
 
 Document what already exists and what other approaches you evaluated.
 
@@ -113,7 +113,7 @@ Document what already exists and what other approaches you evaluated.
 > [!TIP]
 > If you find prior art that solves your problem, attach this spec to that solution's documentation to help maintainers understand stakeholders.
 
-### Technical implementation details
+### ⚙️ Technical implementation details
 
 Now you can get into implementation details. Explain architecture, tech stack choices, and design decisions.
 
@@ -125,7 +125,7 @@ Now you can get into implementation details. Explain architecture, tech stack ch
 - Data models, API contracts, key interfaces (with examples)
 - New infrastructure or services needed
 
-### Milestones
+### 🗓️ Milestones
 
 Decompose the solution into trackable milestones and tasks.
 
@@ -137,7 +137,7 @@ Decompose the solution into trackable milestones and tasks.
 - Rough sizing (developer-hours, days, weeks)
 - Explicit dependencies between tasks
 
-### Success metrics
+### 📊 Success metrics
 
 Define how you'll measure if this worked. What are your victory conditions?
 
@@ -148,7 +148,7 @@ Define how you'll measure if this worked. What are your victory conditions?
 - How you'll track metrics (dashboards, alerts, A/B tests)
 - Both business and technical metrics
 
-### Risk assessment, dependencies and mitigation
+### ⚠️ Risk assessment, dependencies and mitigation
 
 Be brutally honest about what could go wrong.
 
@@ -161,7 +161,7 @@ Be brutally honest about what could go wrong.
 - What you don't know yet (invite help)
 - Compliance, security, or data privacy concerns
 
-### Rollout strategy
+### 🚀 Rollout strategy
 
 Explain how this will be deployed safely.
 
@@ -174,7 +174,7 @@ Explain how this will be deployed safely.
 - Data migration strategy (separate from code deploys)
 - Communication plan for stakeholders and customers
 
-#### Rollback strategy
+#### ↩️ Rollback strategy
 
 > [!CAUTION]
 > Provide step-by-step instructions for reverting changes if things go wrong. This should be clear enough that anyone on the team can execute it during an incident.
@@ -188,7 +188,7 @@ Explain how this will be deployed safely.
 5. Monitor metrics A, B, C to confirm rollback successful
 6. Post in #incidents channel with status
 
-### Testing approach
+### 🧪 Testing approach
 
 Explain how you'll validate this works.
 
@@ -201,7 +201,7 @@ Explain how you'll validate this works.
 - Manual QA/exploratory testing where needed
 - Security testing for sensitive features
 
-### Timeline and milestones
+### 📅 Timeline and milestones
 
 Provide realistic estimates with buffer for unknowns.
 
@@ -214,7 +214,7 @@ Provide realistic estimates with buffer for unknowns.
 - Be realistic about team capacity (6 productive hours/day)
 - Update estimates as you learn more
 
-### Open questions
+### ❓ Open questions
 
 List what still needs to be figured out. This section should shrink over time.
 
@@ -228,7 +228,7 @@ List what still needs to be figured out. This section should shrink over time.
 
 ---
 
-### Part 2 checklist
+### ☑️ Part 2 checklist
 
 > [!IMPORTANT]
 > Before considering this complete, verify all items below.
